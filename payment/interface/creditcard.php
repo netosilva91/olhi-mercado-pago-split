@@ -1,10 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ERROR);
-?>
-
-<?php
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 wp_enqueue_script( 'wc-credit-card-form' );

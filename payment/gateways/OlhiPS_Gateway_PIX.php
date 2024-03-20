@@ -1,8 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ERROR);
-
 require_once("OlhiPS_Gateway_Common.php");
 require_once("PagBank/PB_CreateOrderRequest.php");
 require_once(WC_OLHI_PS_BASE_DIR . "/includes/utils.php");

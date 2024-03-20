@@ -1,8 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ERROR);
-
 add_action('plugins_loaded', 'init_olhips_pagamento', 999);
 
 function init_olhips_pagamento() {

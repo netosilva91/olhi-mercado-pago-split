@@ -1,8 +1,4 @@
 <?php
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
-
 require_once(WC_OLHI_PS_BASE_DIR . "/includes/application.php");
 
 function pagbank_link_func() {
